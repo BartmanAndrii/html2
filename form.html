@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formq</title>
+</head>
+<body>
+<header>
+    <h1>HTML Form</h1>
+</header>
+<nav>
+<a href="index.html">Home page</a>
+</nav>
+
+<section>
+   <h2>Client Data</h2>
+   <form method="POST" action="https://formspree.io/mvoapnjaC">
+      <label>Name:
+          <input type="text" placeholder="name" required name="name">
+      </label>
+      <label>your email:
+         <input type="email" placeholder="Email" required name="email">
+      </label>
+  <br>
+      <label>Gender:</label>
+      <br>
+      <label>
+         <input type="radio" name="gender"  value="male"> Male
+      </label>
+  <br>     
+      <label>
+         <input type="radio" name="gender"  value="female"> Female
+      </label>
+ <br> 
+      <input type="submit">
+   </form>
+</section>
+    
+</body>
+</html>
